@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ecf0f1;
+
+}
+
+
+
+header,
+section h2,
+section h3 {
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+body,input,textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marcas img {
+    height: 24px;
+
+}
+
+.marcas li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+    color: #182C61;
+}
+
+.store {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+    cursor: pointer;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .conteiner {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+section h3 {
+    color: #182C61;
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182C61;
+    color: white;
+    font-family: 'Bungee', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus,textarea:focus {
+    outline-color: #182C61;
+}
+
+footer {
+    background-color: #182C61;
+    color: white;
+    padding: 16px 0;
+}
